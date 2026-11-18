@@ -67,7 +67,7 @@ La simulación funciona sin clave de API. La prueba real inicial registra los mo
 
 Para reanudar una corrida, conserva su ID y su configuración. El notebook verifica los archivos guardados y retoma las etapas pendientes. Si cambias el corpus, el modelo o los prompts, usa otro ID y vuelve a cerrar la referencia para esa configuración.
 
-## Resultados de la corrida del taller
+## Resultados de la corrida de la réplica
 
 | Métrica | Toprani y Madisetti (2025) | Réplica con Gemini |
 |---|---:|---:|
