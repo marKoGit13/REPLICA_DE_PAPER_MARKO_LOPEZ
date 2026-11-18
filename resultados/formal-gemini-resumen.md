@@ -22,6 +22,6 @@ Latencia media por corrida
 | formal-gemini-r2 | 1.26 | 9.97 | 3.83 | 15.06 |
 | formal-gemini-r3 | 1.12 | 10.37 | 4.58 | 16.06 |
 
-La comparación es histórica. El estudio usa plantillas sustitutas, Sonnet 4.6 y un índice NumPy.
+La comparación es histórica. El estudio usa plantillas sustitutas, Gemini 3.8 flash y un índice NumPy.
 
 [Tablas 1 y 2 del artículo](https://ieeexplore.ieee.org/document/10965635)
