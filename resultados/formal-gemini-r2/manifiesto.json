@@ -1,0 +1,71 @@
+{
+  "casos": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10"
+  ],
+  "config": {
+    "controles_por_fase": {
+      "actualizacion": [
+        "SEC-ROTACION"
+      ],
+      "formal": [
+        "SG-SSH-22",
+        "S3-BPA",
+        "S3-KMS",
+        "RDS-CIFRADO",
+        "IAM-MINIMO"
+      ],
+      "piloto": [
+        "SG-SSH-22"
+      ],
+      "smoke": [
+        "SG-SSH-22"
+      ]
+    },
+    "detector_max_tokens": 4096,
+    "dimensions": 768,
+    "embedding_model": "gemini-embedding-2",
+    "google_genai_version": "3.5.0",
+    "informe_max_tokens": 2500,
+    "max_fragmentos": 12,
+    "proveedor": "gemini",
+    "region": null,
+    "temperature": null,
+    "text_model": "gemini-3.8-flash",
+    "thinking_level": "LOW",
+    "top_k": 3
+  },
+  "dependencias": {
+    "PyYAML": "6.0.3",
+    "boto3": "1.43.118",
+    "botocore": "1.43.127",
+    "jsonschema": "4.26.0",
+    "numpy": "2.3.5"
+  },
+  "fase": "formal",
+  "identidad": {
+    "config/config.yaml": "1785875945be9cf35ff86378ab4ac900fa9512413334ae72ad4f9d3a0ecb8f76",
+    "config/controles.yaml": "d7714eb8165dac07d051fd294016e10624c9697d9ecd1e59a47b69c70c6a8bed",
+    "config/detector.txt": "8fb1fe4b93e7cb519e5d68fb1208e7c2016f5db28f35fbc9881ad2ee338edb01",
+    "config/informe.txt": "63baacf10fd332a665fff8726b9b2bf4d6dd64be16aea52a176a00caa7475855",
+    "corpus/formal/manifiesto_corpus.csv": "c2d80725f12eb6adf490006fbfeecf89035563facd313554850fcc9396ec0758",
+    "pipeline.py": "2f5ad5c9910d59411a94185e228add5631e103df1eb224352f6da958a058e599",
+    "requirements.txt": "365ac48dea4b35b8f1e1d5702d79b6d13e3bce5c71d1aa0ac029957f14edc1e6"
+  },
+  "indexacion_s": 3.50592068800006,
+  "indice": "d68a9d9b909898bf5a29fd1d25af363e39582d58c2424fb3464decd02c1e6275",
+  "inicio": "2026-11-18T18:51:40.893638+00:00",
+  "python": "3.13.18",
+  "referencia_sha256": "7b9cf92750cb42063e3efa936b785c41c2616ebb65e03fca3f91ad87fcc437a9",
+  "sha256": "f0506c5b42597b2d3f54cb02d578facde2134c667d57ed71a88af012732254de",
+  "simulacion": false,
+  "version_docs": "base"
+}

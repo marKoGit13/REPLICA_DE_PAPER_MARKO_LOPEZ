@@ -1,0 +1,413 @@
+{
+  "completas": 10,
+  "fase": "formal",
+  "latencia_s": {
+    "detector": {
+      "max": 15.016470768001454,
+      "media": 9.392234664499847,
+      "mediana": 10.485162733500147,
+      "min": 1.928537621999567
+    },
+    "escritura": {
+      "max": 0.12223443299990322,
+      "media": 0.10834102900025755,
+      "mediana": 0.10828063850112812,
+      "min": 0.09915959099816973
+    },
+    "evaluacion": {
+      "max": 0.03531152400137216,
+      "media": 0.025799776500207372,
+      "mediana": 0.024536191999686707,
+      "min": 0.023993429998881766
+    },
+    "informe": {
+      "max": 13.21352930699868,
+      "media": 4.910754529099722,
+      "mediana": 3.9809758139990663,
+      "min": 2.420224124000015
+    },
+    "normalizacion": {
+      "max": 0.011247911999817006,
+      "media": 0.0037020950001533494,
+      "mediana": 0.0025907299996106303,
+      "min": 0.0014387420014827512
+    },
+    "recuperacion": {
+      "max": 2.4060966819997702,
+      "media": 1.2615095758997996,
+      "mediana": 1.3156236140002875,
+      "min": 0.4443505559993355
+    },
+    "total_activo": {
+      "max": 24.653940837000846,
+      "media": 15.702341669999987,
+      "mediana": 17.010418645500977,
+      "min": 4.944714290000775
+    },
+    "total_comparable": {
+      "max": 24.503836857997157,
+      "media": 15.56449876949937,
+      "mediana": 16.865430425497834,
+      "min": 4.816884088999359
+    }
+  },
+  "micro": {
+    "FN": 0,
+    "FP": 0,
+    "TP": 20,
+    "abstencion": 0,
+    "cita_invalida": 0,
+    "duplicado": 0,
+    "f1": 1.0,
+    "fraccion_alertas_incorrectas": 0.0,
+    "fuera_catalogo": 0,
+    "indeterminado": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "ruta_invalida": 0
+  },
+  "por_plantilla": [
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 3,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": 1.0,
+      "fraccion_alertas_incorrectas": 0.0,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T01",
+      "precision": 1.0,
+      "reanudada": false,
+      "recall": 1.0,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 11.823817826998493,
+        "escritura": 0.11432250700272562,
+        "evaluacion": 0.026175000000876025,
+        "informe": 3.900048457999219,
+        "normalizacion": 0.0015163230000325711,
+        "recuperacion": 1.3318757230008487,
+        "total_activo": 17.197755838002195,
+        "total_comparable": 17.05574200799856
+      },
+      "vista_tabla_1": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 4,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": 1.0,
+      "fraccion_alertas_incorrectas": 0.0,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T02",
+      "precision": 1.0,
+      "reanudada": false,
+      "recall": 1.0,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 15.016470768001454,
+        "escritura": 0.09915959099816973,
+        "evaluacion": 0.024859914999979082,
+        "informe": 4.502849776999938,
+        "normalizacion": 0.0014567739999620244,
+        "recuperacion": 1.3656975450012396,
+        "total_activo": 21.010494370000742,
+        "total_comparable": 20.88501809000263
+      },
+      "vista_tabla_1": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 4,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": 1.0,
+      "fraccion_alertas_incorrectas": 0.0,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T03",
+      "precision": 1.0,
+      "reanudada": false,
+      "recall": 1.0,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 10.216308721001042,
+        "escritura": 0.09962334799820383,
+        "evaluacion": 0.02452309399996011,
+        "informe": 4.49753105399941,
+        "normalizacion": 0.001609367000128259,
+        "recuperacion": 2.4060966819997702,
+        "total_activo": 17.245692265998514,
+        "total_comparable": 17.11993645700022
+      },
+      "vista_tabla_1": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 4,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": 1.0,
+      "fraccion_alertas_incorrectas": 0.0,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T04",
+      "precision": 1.0,
+      "reanudada": false,
+      "recall": 1.0,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 11.313844167998468,
+        "escritura": 0.12223443299990322,
+        "evaluacion": 0.024289435001264792,
+        "informe": 4.061903169998914,
+        "normalizacion": 0.0014387420014827512,
+        "recuperacion": 1.2993715049997263,
+        "total_activo": 16.82308145299976,
+        "total_comparable": 16.675118842997108
+      },
+      "vista_tabla_1": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 5,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": 1.0,
+      "fraccion_alertas_incorrectas": 0.0,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T05",
+      "precision": 1.0,
+      "reanudada": false,
+      "recall": 1.0,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 12.773174976000519,
+        "escritura": 0.1136640750009974,
+        "evaluacion": 0.02575717999934568,
+        "informe": 7.352634942000805,
+        "normalizacion": 0.0016312560001097154,
+        "recuperacion": 1.9870946439987165,
+        "total_activo": 22.253957073000493,
+        "total_comparable": 22.11290456200004
+      },
+      "vista_tabla_1": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 0,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": null,
+      "fraccion_alertas_incorrectas": null,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T06",
+      "precision": null,
+      "reanudada": false,
+      "recall": null,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 10.754016745999252,
+        "escritura": 0.10890145800112805,
+        "evaluacion": 0.03531152400137216,
+        "informe": 13.21352930699868,
+        "normalizacion": 0.005890997001188225,
+        "recuperacion": 0.5362908049992257,
+        "total_activo": 24.653940837000846,
+        "total_comparable": 24.503836857997157
+      },
+      "vista_tabla_1": {
+        "f1": null,
+        "precision": null,
+        "recall": null
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 0,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": null,
+      "fraccion_alertas_incorrectas": null,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T07",
+      "precision": null,
+      "reanudada": false,
+      "recall": null,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 3.4729719949991704,
+        "escritura": 0.1076598190011282,
+        "evaluacion": 0.024549289999413304,
+        "informe": 3.114374658000088,
+        "normalizacion": 0.011247911999817006,
+        "recuperacion": 1.5398019229996862,
+        "total_activo": 8.270605596999303,
+        "total_comparable": 8.127148575998945
+      },
+      "vista_tabla_1": {
+        "f1": null,
+        "precision": null,
+        "recall": null
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 0,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": null,
+      "fraccion_alertas_incorrectas": null,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T08",
+      "precision": null,
+      "reanudada": false,
+      "recall": null,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 9.987196711999786,
+        "escritura": 0.11496795600032783,
+        "evaluacion": 0.024025852000704617,
+        "informe": 3.1627177789996495,
+        "normalizacion": 0.0035502039991115453,
+        "recuperacion": 0.4443505559993355,
+        "total_activo": 13.736809058998915,
+        "total_comparable": 13.594265046998771
+      },
+      "vista_tabla_1": {
+        "f1": null,
+        "precision": null,
+        "recall": null
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 0,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": null,
+      "fraccion_alertas_incorrectas": null,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T09",
+      "precision": null,
+      "reanudada": false,
+      "recall": null,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 6.636007110000719,
+        "escritura": 0.10322830099903513,
+        "evaluacion": 0.023993429998881766,
+        "informe": 2.881732022000506,
+        "normalizacion": 0.005011020999518223,
+        "recuperacion": 1.2363940329996694,
+        "total_activo": 10.88636591699833,
+        "total_comparable": 10.754133165000894
+      },
+      "vista_tabla_1": {
+        "f1": null,
+        "precision": null,
+        "recall": null
+      }
+    },
+    {
+      "FN": 0,
+      "FP": 0,
+      "TP": 0,
+      "abstencion": 0,
+      "cita_invalida": 0,
+      "duplicado": 0,
+      "error": null,
+      "estado": "completa",
+      "f1": null,
+      "fraccion_alertas_incorrectas": null,
+      "fuera_catalogo": 0,
+      "indeterminado": 0,
+      "plantilla_id": "T10",
+      "precision": null,
+      "reanudada": false,
+      "recall": null,
+      "ruta_invalida": 0,
+      "tiempos_s": {
+        "detector": 1.928537621999567,
+        "escritura": 0.0996488020009565,
+        "evaluacion": 0.02451304500027618,
+        "informe": 2.420224124000015,
+        "normalizacion": 0.0036683540001831716,
+        "recuperacion": 0.4681223429997772,
+        "total_activo": 4.944714290000775,
+        "total_comparable": 4.816884088999359
+      },
+      "vista_tabla_1": {
+        "f1": null,
+        "precision": null,
+        "recall": null
+      }
+    }
+  ],
+  "programadas": 10,
+  "simulacion": false
+}
